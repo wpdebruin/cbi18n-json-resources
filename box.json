@@ -1,19 +1,19 @@
 {
-    "name":"cbi18n-json-resources",
+    "name":"cbi18n JSON ResourceService",
     "version":"0.3.0",
-    "author":"Wil de Bruin",
+    "author":"Wil de Bruin <wil@shiftinsert.nl>",
     "location":"https://github.com/wpdebruin/cbi18n-json-resources/archive/main.zip",
-    "homepage":"shiftinsert.nl",
-    "documentation":"",
+    "homepage":"https://shiftinsert.nl",
+    "documentation":"https://github.com/wpdebruin/cbi18n-json-resources",
     "repository":{
-        "type":"",
-        "URL":""
+        "type":"git",
+        "URL":"https://github.com/wpdebruin/cbi18n-json-resources"
     },
-    "bugs":"",
+    "bugs":"https://github.com/wpdebruin/cbi18n-json-resources/issues",
     "slug":"cbi18n-json-resources",
-    "shortDescription":"A sweet package",
-    "description":"",
-    "instructions":"",
+    "shortDescription":"JSON language resources for cbi18n",
+    "description":"This module is a replacement for the ResourceService in cbi18n (which only accepts java resource file). The module can read JSON resources, nested and simple, and can read hierarchial resources including a default resource",
+    "instructions":"https://github.com/wpdebruin/cbi18n-json-resources/blob/main/README.md",
     "changelog":"",
     "type":"modules",
     "keywords":"cbi18n json language internationalization",
@@ -26,7 +26,9 @@
         }
     ],
     "contributors":[],
-    "dependencies":{},
+    "dependencies":{ 
+        "cbi18n":"*"
+    },
     "devDependencies":{},
     "installPaths":{},
     "scripts":{},
