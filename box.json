@@ -1,9 +1,9 @@
 {
     "name":"cbi18n JSON ResourceService",
-    "version":"0.3.0",
+    "version":"1.0.0",
     "author":"Wil de Bruin <wil@shiftinsert.nl>",
     "location":"https://github.com/wpdebruin/cbi18n-json-resources/archive/main.zip",
-    "homepage":"https://shiftinsert.nl",
+    "homepage":"https://github.com/wpdebruin/cbi18n-json-resources",
     "documentation":"https://github.com/wpdebruin/cbi18n-json-resources",
     "repository":{
         "type":"git",
